@@ -65,3 +65,38 @@ Este guia demonstra como restringir o acesso de uma aplicação a um único OneD
 *   **Conditional Access Policies:** Considere usar políticas de acesso condicional do Azure AD para impor requisitos adicionais, como autenticação multifator (MFA), para acesso à aplicação.
 
 Este guia oferece uma abordagem robusta para restringir o acesso de aplicações ao OneDrive, utilizando múltiplas camadas de segurança para proteger os dados.
+
+
+Aqui estão as referências da Microsoft que abordam os tópicos discutidos, que você pode adicionar ao seu documento GitHub para fornecer mais contexto e credibilidade:
+
+Application Access Policy:
+
+New-ApplicationAccessPolicy (Cmdlet de Referência): https://learn.microsoft.com/powershell/module/sharepoint-online/new-applicationaccesspolicy - Documentação oficial do cmdlet PowerShell usado para criar as políticas de acesso.
+
+Control app access based on client identity: https://learn.microsoft.com/sharepoint/dev/solution-guidance/security-app-only-azureacs - Guia que explica como controlar o acesso de aplicações no SharePoint usando o modelo App-Only e Azure ACS (embora o Azure ACS esteja sendo descontinuado, os conceitos da Application Access Policy permanecem relevantes).
+
+Role-Based Access Control (RBAC) no SharePoint Online/OneDrive:
+
+Understanding permission levels in SharePoint: https://support.microsoft.com/en-us/office/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-49c4-9807-ba8e5ef4c41e - Descrição dos níveis de permissão padrão no SharePoint, que se aplicam ao OneDrive.
+
+Customize SharePoint site permissions: https://support.microsoft.com/en-us/office/customize-sharepoint-site-permissions-05beca76-0576-4f9b-919f-706b54c4534a - Como personalizar as permissões do site do SharePoint, o que permite ajustar o acesso da aplicação.
+
+SharePoint permissions: https://learn.microsoft.com/sharepoint/understanding-sharepoint-permissions - Artigo mais abrangente sobre como funcionam as permissões no SharePoint.
+
+Microsoft Graph API e Permissões:
+
+Microsoft Graph permissions reference: https://learn.microsoft.com/en-us/graph/permissions-reference - Lista completa das permissões disponíveis no Microsoft Graph, incluindo permissões delegadas e permissões de aplicativo.
+
+Choose permissions: https://learn.microsoft.com/en-us/graph/auth/choose-permissions - Guia sobre como selecionar as permissões apropriadas para sua aplicação no Microsoft Graph.
+
+OneDrive API in Microsoft Graph: https://learn.microsoft.com/en-us/graph/api/resources/onedrive - Documentação específica sobre a API do OneDrive no Microsoft Graph.
+
+Get drive item: https://learn.microsoft.com/en-us/graph/api/driveitem-get - Detalhes sobre como acessar itens do OneDrive usando a API do Microsoft Graph.
+
+Use application permissions with the OneDrive API https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/use-microsoft-graph-application-permissions - Guia sobre como usar permissões de aplicativo (Application Permissions) com a API do OneDrive.
+
+Conceitos Gerais de Segurança:
+
+Principle of Least Privilege: https://learn.microsoft.com/en-us/security/compass/privileged-access - Descrição do princípio do menor privilégio (embora no contexto de acesso privilegiado, o princípio se aplica amplamente).
+
+Microsoft Cloud Security Benchmark (MCSB): https://learn.microsoft.com/security/benchmark/azure/introduction - Um conjunto de recomendações para proteger seus serviços de nuvem do Azure, incluindo diretrizes para gerenciamento de identidade e acesso.
