@@ -1,4 +1,6 @@
- **Restringindo o Acesso de Aplicações a um OneDrive Específico (Melhores Práticas Microsoft)**
+Ok, aqui está o texto revisado com as melhores práticas da Microsoft, tornando-o mais claro, preciso e alinhado com a documentação oficial:
+
+**Restringindo o Acesso de Aplicações a um OneDrive Específico (Melhores Práticas Microsoft)**
 
 Para garantir a segurança e o controle de acesso, é crucial restringir o acesso de uma aplicação a um único OneDrive.  A Microsoft recomenda uma abordagem em camadas, combinando políticas de acesso, permissões granulares e configurações específicas da API.
 
